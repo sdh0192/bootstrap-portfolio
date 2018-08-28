@@ -21,11 +21,13 @@ h1, h2, h3, p {
     margin-bottom: 20px;
 }
 
+
+
 p:last-child {
     margin-bottom: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: 700;
     color: #4aaaa5;
@@ -38,7 +40,7 @@ h1{
     padding-bottom: 20px;
 }
 
-h2, h3 {
+h2, h3, h4 {
     font-size: 22 px;
 }
 
@@ -69,10 +71,32 @@ h2, h3 {
     text-decoration: none;
 }
 
-nav {
+.navbar-nav {
     float: right;
-    margin-top: 25px;
+    padding-left: 200px;
 }
+
+.navbar-brand {
+    font-size: 30px;
+    background-color: #4aaaa5;
+    color: red;
+    line-height: 80px;
+    padding-right: 20px;
+}
+
+.navbar {
+    /* float: right; */
+    margin: 0 auto;
+    position: fixed;
+    background-color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 90px;
+    line-height: 90px;
+    width: 100%;
+    padding-left: 400px;
+    border-bottom: 2px solid #ccc;
+}
+
 
 nav a {
     color: #999;
@@ -223,8 +247,9 @@ input[type=submit] {
     cursor: pointer;
 }
 
-
-
+#connectpics {
+    border-top: 2px solid #ddd;
+}
 
 
 
