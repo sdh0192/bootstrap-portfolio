@@ -73,7 +73,7 @@ h2, h3, h4 {
 
 .navbar-nav {
     float: right;
-    padding-left: 200px;
+    /* padding-left: 200px; */
 }
 
 .navbar-brand {
@@ -85,7 +85,7 @@ h2, h3, h4 {
 }
 
 .navbar {
-    /* float: right; */
+    float: right;
     margin: 0 auto;
     position: fixed;
     background-color: white;
@@ -93,10 +93,15 @@ h2, h3, h4 {
     height: 90px;
     line-height: 90px;
     width: 100%;
-    padding-left: 400px;
+    /* padding-left: 400px; */
     border-bottom: 2px solid #ccc;
+    z-index: 99;
 }
 
+/* .navbarcontent {
+    margin: 0 auto;
+    display: inline-block;
+} */
 
 nav a {
     color: #999;
@@ -140,7 +145,7 @@ nav a:first-child {
     background: #fff;
     padding: 30px;
     width: 100%;
-    max-width: 270px;
+    /* max-width: 270px; */
     float: right;
     border: 1px solid #ddd;
     margin-bottom: 20px;
@@ -250,8 +255,5 @@ input[type=submit] {
 #connectpics {
     border-top: 2px solid #ddd;
 }
-
-
-
 
 
